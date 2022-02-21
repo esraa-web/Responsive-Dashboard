@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Top Navigation Menu -->
+        <div class="sidebar-m">
+            <a class="logo">
+                <img src="picture/logo1.png" alt="">
+            </a>
+            <div id="myLinks">
+                <div  class="icons-m" >
+                    <a href=""><span class="iconify active" data-icon="dashicons:grid-view"></span></a>
+                    <a href=""><span class="iconify" data-icon="ci:mail"></span></a>
+                    <a href=""><span class="iconify" data-icon="ion:calendar-outline" sty></span></a>
+                    <a href=""><span class="iconify" data-icon="eva:bookmark-outline"></span></a>
+                    <a href=""><span class="iconify" data-icon="ic:outline-notifications"></span></a>
+                    <a href=""><span class="iconify" data-icon="ion:game-controller-outline"></span></a>
+                    <!-- <a class="home-logo">
+                        <img src="picture/logo2.png" alt="">
+                    </a>  -->
+                </div>
+            </div>
+           
+           
+            <a href="javascript:void(0);" class="burger-icon" onclick="myFunction()">
+                <span class="iconify icon" data-icon="dashicons:menu-alt3"></span>
+            </a>
+        </div>
+        <div class="sidebar">
+            <a class="logo">
+                <img src="picture/logo1.png" alt="">
+            </a>
+            <div class="icons">
+                <span class="iconify" data-icon="dashicons:grid-view"></span>
+                <span class="iconify" data-icon="ci:mail"></span>
+                <span class="iconify" data-icon="ion:calendar-outline" sty></span>
+                <span class="iconify" data-icon="eva:bookmark-outline"></span>
+                <span class="iconify" data-icon="ic:outline-notifications"></span>
+                <span class="iconify" data-icon="ion:game-controller-outline"></span>
+            </div>
+            <div class="home-logo">
+                <img src="picture/logo2.png" alt="">
+            </div>
+        </div>
+        <div class="main">
+            <div class="explore">
+                <div class="info-explore">
+                    <div class="title">
+                        <h1>Explore</h1>
+                        <p> <a href="#">Find useful products</a> </p>
+                    </div>
+                    <div class="form-search">
+                        <input type="search" placeholder="Search by keywords ">
+                        <input type="button" value="SEARCH">
+                        <span class="iconify search-icon" data-icon="bx:bx-search"></span>
+
+                    </div>
+                    <div class="hashtag">
+                        <p>#design #ui #ux #illustrator #minimalism #together </p>
+                    </div>
+                    <div class="return-arrow">
+                        <h3>For You</h3>
+                        <div class="arrows">
+                            <a href="#"><span class="iconify arrow" data-icon="ion:arrow-back-outline"></span></a>
+                            <a href="#"><span class="iconify arrow" data-icon="ion:arrow-forward-outline"></span></a>
+                        </div>
+                    </div>
+                    <div class="img-ex-gallery">
+                        <img src="picture/search-1.svg" alt="">
+                        <img src="picture/search-2 .svg" alt="">
+                        <img src="picture/search-3.svg" alt="">
+                    </div>
+                </div>
+                <div class="image-explore">
+                    <img src="picture/create-img.png" alt="">
+                </div>
+            </div>
+            <div class="create">
+                <div class="image-create">
+
+                    <img src="picture/explore-img.png" alt="">
+                </div>
+                <div class="info-create">
+                    <div class="title">
+                        <h1>Create</h1>
+                        <p> <a href="#">Share with your friends</a> </p>
+                    </div>
+                    <div class="main-buttons">
+                        <ion-icon class="ion-btn-add" name="add-circle-outline"></ion-icon>
+                        <button type="submit" class="btn-add-img">Add image </button>
+                        <span class="iconify add-icon" data-icon="bx:bxs-image-add"></span>
+                        <button type="submit" class="btn-images">image1</button>
+                        <ion-icon class="ion-btn" name="trash-outline"></ion-icon>
+                        <button type="submit" class="btn-images">image2</button>
+                        <ion-icon class="ion-btn ion-btn2" name="trash-outline"></ion-icon>
+                        <button type="submit" class="btn-upload">upload</button>
+                        <span class="iconify upload-icon " data-icon="el:upload"></span>
+                    </div>
+                    <div class="hashtag">
+                        <p>Upload formats : PNG , JPG , GIF , BMP , SVG</p>
+                    </div>
+                    <div class="return-arrow">
+                        <h3>My Album</h3>
+                        <div class="arrows">
+                            <a href="#"><span class="iconify" data-icon="ion:arrow-back-outline"></span></a>
+                            <a href="#"><span class="iconify" data-icon="ion:arrow-forward-outline"></span></a>
+                        </div>
+                    </div>
+                    <div class="img-cr-gallery">
+                        <img src="picture/upload-1.svg" alt="">
+                        <img src="picture/upload-2.svg" alt="">
+                        <img src="picture/upload-3.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script>
+        function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+        }
+    </script>
+</body>
+
+</html>
